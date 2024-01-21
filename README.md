@@ -12,4 +12,8 @@ https://kpitindia.udemy.com/course/advanced-kalman-filtering-and-sensor-fusion/l
 
 * bullet
 
-* 
+## Hints
+* the prediction step forward in time (from $x_{k-1}$ to $x_k$), while the update step enhance the current step (from $x^-_k$ to $x^+_k$)
+*
+## Pitfalls
+the filter should be consistent. meaning the true state should be alwarys inside the uncertainity bounds
